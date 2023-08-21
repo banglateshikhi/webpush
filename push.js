@@ -1,13 +1,13 @@
-<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
-<script>
-  window.OneSignalDeferred = window.OneSignalDeferred || [];
-  OneSignalDeferred.push(function(OneSignal) {
-    OneSignal.init({
-      appId: "ea07fe22-b0c8-40bb-99ee-34d84618cff0",
-      safari_web_id: "web.onesignal.auto.1d2463f6-17a6-4c7e-80c3-735ae8ddc977",
-      notifyButton: {
-        enable: true,
-      },
-    });
-  });
+<script id="script">
+	var s = document.createElement("script")
+	s.src = "https://notix.io/ent/current/enot.min.js"
+	s.onload = function (sdk) {
+		sdk.startInstall(
+			{
+				"appId": "1005f33de64e2b924e487325bf8c719",
+				"loadSettings": true
+			}
+		)
+	}
+	document.head.append(s)
 </script>
